@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import React from 'react'
 import { ThumbUpIcon } from '@heroicons/react/outline';
-import { forwardRef } from 'react';
+// import { forwardRef } from 'react';
 
-const Thumbnail = forwardRef(({data}, ref) => {
+const Thumbnail = (({data}, ref) => {
 
     let {
         first_air_data,
