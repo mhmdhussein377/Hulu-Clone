@@ -3,7 +3,7 @@ import React from 'react'
 import { ThumbUpIcon } from '@heroicons/react/outline';
 import { forwardRef } from 'react';
 
-const Thumbnail = forwardRef(({data}, ref) => {
+const Thumbnail = (({data}, ref) => {
 
     let {
         first_air_data,
@@ -36,6 +36,10 @@ const Thumbnail = forwardRef(({data}, ref) => {
     );
 })
 
+<<<<<<< HEAD
 Thumbnail.displayName = "Thumbnail"
 
 export default Thumbnail
+=======
+export default Thumbnail
+>>>>>>> 57a9971c302d81c448f96e54ceb0770a3fd4d69d
