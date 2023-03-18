@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import React from 'react'
 import { ThumbUpIcon } from '@heroicons/react/outline';
-// import { forwardRef } from 'react';
+import { forwardRef } from 'react';
 
-const Thumbnail = (({data}, ref) => {
+const Thumbnail = forwardRef(({data}, ref) => {
 
     let {
         first_air_data,
@@ -35,5 +35,7 @@ const Thumbnail = (({data}, ref) => {
         </div>
     );
 })
+
+Thumbnail.displayName = "Thumbnail"
 
 export default Thumbnail
