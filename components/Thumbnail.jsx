@@ -36,10 +36,6 @@ const Thumbnail = (({data}, ref) => {
     );
 })
 
-<<<<<<< HEAD
 Thumbnail.displayName = "Thumbnail"
 
 export default Thumbnail
-=======
-export default Thumbnail
->>>>>>> 57a9971c302d81c448f96e54ceb0770a3fd4d69d
