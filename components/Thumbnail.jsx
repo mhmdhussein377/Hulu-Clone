@@ -3,7 +3,7 @@ import React from 'react'
 import { ThumbUpIcon } from '@heroicons/react/outline';
 import { forwardRef } from 'react';
 
-const Thumbnail = (({data}, ref) => {
+const Thumbnail = forwardRef(({data}, ref) => {
 
     let {
         first_air_data,
