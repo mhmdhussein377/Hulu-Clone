@@ -16,6 +16,8 @@ const Thumbnail = forwardRef(({data}, ref) => {
         release_date,
     } = data;
 
+    console.log(backdrop_path)
+
     return (
         <div ref={ref} className="group transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50 cursor-pointer p-2">
             <Image
